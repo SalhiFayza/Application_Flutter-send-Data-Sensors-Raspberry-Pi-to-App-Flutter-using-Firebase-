@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "512029563756",
+    "project_id": "aquaponicsapp-d4dda",
+    "storage_bucket": "aquaponicsapp-d4dda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512029563756:android:728516e9a62ce29d86b149",
+        "android_client_info": {
+          "package_name": "com.example.assistantapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "512029563756-4e89i252cc1t9butputs9bo1ahj5u1j8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.assistantapp",
+            "certificate_hash": "63d7a988684b857db61462e486d3dc7da34e1e0f"
+          }
+        },
+        {
+          "client_id": "512029563756-l8i13dh8b5vh5k556ohdhns69ilv5l0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtEg318UZaR1ERHtv8yALb2mFcq9cMQu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "512029563756-l8i13dh8b5vh5k556ohdhns69ilv5l0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
