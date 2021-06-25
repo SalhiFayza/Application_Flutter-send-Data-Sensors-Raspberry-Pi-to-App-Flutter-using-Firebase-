@@ -2,7 +2,6 @@ import 'package:assistantapp/HomePage.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:assistantapp/HomePage.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -49,8 +48,7 @@ class _LoginState extends State<Login> {
             email: _email, password: _password);
 
         SharedPreferences preferences = await SharedPreferences.getInstance();
-        preferences.setString('_email', emailController.text);
-
+        preferences.setBool('fist', true);
         Navigator.of(context).pushReplacementNamed("HomePage");
       } catch (e) {
         showError(e.message);

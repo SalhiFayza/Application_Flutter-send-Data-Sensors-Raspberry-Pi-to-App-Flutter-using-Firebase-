@@ -17,13 +17,12 @@ class _DataAcp extends State<DataAcp> {
   @override
   void initState() {
     super.initState();
-
-    databaseRef.child('DATA').once().then((DataSnapshot snapshot) {
+    databaseRef.child('DATA').onValue.listen((event) {
       setState(() {
-        humidity = snapshot.value['Humidity']['Data'];
-        temperature = snapshot.value['Temperature']['Data'];
-        waterTemp = snapshot.value['WaterTemp']['Data'];
-        pH = snapshot.value['pH']['Data'];
+        humidity = event.snapshot.value['Humidity']['Data'];
+        temperature = event.snapshot.value['Temperature']['Data'];
+        waterTemp = event.snapshot.value['WaterTemp']['Data'];
+        pH = event.snapshot.value['pH']['Data'];
       });
     });
   }
@@ -60,7 +59,7 @@ class _DataAcp extends State<DataAcp> {
                           ),
                           SizedBox(width: 20),
                           Text(
-                            "Temperature:${temperature}",
+                            "Temperature:$temperature",
                             style: TextStyle(
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
@@ -107,7 +106,7 @@ class _DataAcp extends State<DataAcp> {
                             ),
                             SizedBox(width: 20),
                             Text(
-                              "Humidity: ${humidity}",
+                              "Humidity: $humidity",
                               style: TextStyle(
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.bold,
@@ -155,7 +154,7 @@ class _DataAcp extends State<DataAcp> {
                             ),
                             SizedBox(width: 20),
                             Text(
-                              "WaterTemp: ${waterTemp}",
+                              "WaterTemp: $waterTemp",
                               style: TextStyle(
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.bold,
@@ -203,7 +202,7 @@ class _DataAcp extends State<DataAcp> {
                             ),
                             SizedBox(width: 20),
                             Text(
-                              "pH: ${pH}",
+                              "pH: $pH",
                               style: TextStyle(
                                   fontSize: 18.0,
                                   fontWeight: FontWeight.bold,

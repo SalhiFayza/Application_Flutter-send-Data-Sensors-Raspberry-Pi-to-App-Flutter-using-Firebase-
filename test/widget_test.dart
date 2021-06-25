@@ -9,11 +9,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:assistantapp/main.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(MyApp());
+    SharedPreferences preferences = await SharedPreferences.getInstance();
+    await tester.pumpWidget(MyApp(preferences.containsKey("fist")));
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

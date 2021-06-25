@@ -6,8 +6,9 @@ import 'package:assistantapp/InfoFishes.dart';
 import 'package:assistantapp/Settingss.dart';
 import 'package:assistantapp/application1_icons.dart';
 import 'package:flutter/material.dart';
-
+import 'package:shared_preferences/shared_preferences.dart';
 import 'application1_icons.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class DataHm extends StatefulWidget {
   @override
@@ -16,6 +17,7 @@ class DataHm extends StatefulWidget {
 
 class _Data extends State<DataHm> with SingleTickerProviderStateMixin {
   TabController _tabController;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
 
   @override
   void initState() {
@@ -47,11 +49,15 @@ class _Data extends State<DataHm> with SingleTickerProviderStateMixin {
                   centerTitle: true,
                   actions: [
                     IconButton(
-                      icon: Icon(Icons.notifications_none,
-                          color: Color(0xFF545D68)),
-                      onPressed: () {},
+                      icon: Icon(Icons.logout, color: Color(0xFF545D68)),
+                      onPressed: () async {
+                        SharedPreferences preferences =
+                            await SharedPreferences.getInstance();
+                        preferences.remove("fist");
+                        _auth.signOut();
+                        Navigator.of(context).pushReplacementNamed("Start");
+                      },
                     ),
-                    Icon(Icons.menu, color: Color(0xFF545D68)),
                   ],
                   flexibleSpace: Container(
                     decoration: BoxDecoration(
