@@ -27,6 +27,9 @@ samples, guidance on mobile development, and a full API reference.
 
 -Past the file google-service.json in Folder Project app.
 
+-The Google Services Gradle Plugin
+As part of enabling Google APIs or Firebase services in your Android application you may have to add the google-services plugin to your build.gradle file:
+
 ![9](https://user-images.githubusercontent.com/60444937/123498432-d9bc5880-d627-11eb-89d6-c0ab044d5e97.PNG)
 
 Part 1: Authentification with Firebase.
