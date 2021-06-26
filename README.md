@@ -27,26 +27,19 @@ samples, guidance on mobile development, and a full API reference.
 
 -Past the file google-service.json in Folder Project app.
 
+![9](https://user-images.githubusercontent.com/60444937/123498432-d9bc5880-d627-11eb-89d6-c0ab044d5e97.PNG)
+
 -The Google Services Gradle Plugin
 As part of enabling Google APIs or Firebase services in your Android application you may have to add the google-services plugin to your build.gradle file:
 
-
 ![Capture](https://user-images.githubusercontent.com/60444937/123498570-acbc7580-d628-11eb-9bfc-3e0ee6486bc8.PNG)
-
-![9](https://user-images.githubusercontent.com/60444937/123498432-d9bc5880-d627-11eb-89d6-c0ab044d5e97.PNG)
 
 Part 1: Authentification with Firebase.
 
 ![1](https://user-images.githubusercontent.com/60444937/123497305-a3310e80-d624-11eb-8bb9-212f6261be2f.PNG)![2](https://user-images.githubusercontent.com/60444937/123497382-23577400-d625-11eb-9976-f9ae6fae8de8.PNG)![3](https://user-images.githubusercontent.com/60444937/123497444-7af5df80-d625-11eb-9c7b-703ea778afe9.PNG)
 
-
-
-
-
-
 Part 2: Data obtained from Firebase.
 
 ![5](https://user-images.githubusercontent.com/60444937/123497614-6bc36180-d626-11eb-8d06-141823fe121e.PNG)![4](https://user-images.githubusercontent.com/60444937/123497619-6e25bb80-d626-11eb-8e94-bd40544f6de3.PNG)
-
 
 Part 3: Pieces of information with the Fishes and Plants in Aquaponics.
