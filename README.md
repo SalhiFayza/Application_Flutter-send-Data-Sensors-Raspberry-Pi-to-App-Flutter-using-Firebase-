@@ -16,5 +16,8 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 //************
 Part 1: Authentication with Firebase.
+
+![187791596_196867208830378_5106524711292882467_n](https://user-images.githubusercontent.com/60444937/123497176-fb1b4580-d623-11eb-94f8-9c4f49fabe01.jpg)
+
 Part 2: Data obtained from Firebase.
 Part 3: Pieces of information with the Fishes and Plants in Aquaponics.
