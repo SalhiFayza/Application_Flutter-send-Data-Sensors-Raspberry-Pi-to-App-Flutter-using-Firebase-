@@ -14,7 +14,13 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-
+*************
+-Create a project Flutter.
+-Create account Google Cloud Platform.
+-Create account Firebase.
+-Create a Project Firebase.
+-Download google-service.json file.
+-Past the file google-service.json in Folder Project app
 
 
 Part 1: Authentification with Firebase.
