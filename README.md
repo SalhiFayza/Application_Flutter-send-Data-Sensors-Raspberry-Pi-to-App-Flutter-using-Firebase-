@@ -17,7 +17,7 @@ samples, guidance on mobile development, and a full API reference.
 
 
 
-Part 1: Authentication with Firebase.
+Part 1: Authentification with Firebase.
 
 ![1](https://user-images.githubusercontent.com/60444937/123497305-a3310e80-d624-11eb-8bb9-212f6261be2f.PNG)
 
