@@ -29,4 +29,6 @@ Part 1: Authentification with Firebase.
 Part 2: Data obtained from Firebase.
 
 ![5](https://user-images.githubusercontent.com/60444937/123497614-6bc36180-d626-11eb-8d06-141823fe121e.PNG)![4](https://user-images.githubusercontent.com/60444937/123497619-6e25bb80-d626-11eb-8e94-bd40544f6de3.PNG)
+
+
 Part 3: Pieces of information with the Fishes and Plants in Aquaponics.
