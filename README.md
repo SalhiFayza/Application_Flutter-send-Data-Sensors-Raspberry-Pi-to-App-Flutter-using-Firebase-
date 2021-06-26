@@ -34,6 +34,11 @@ As part of enabling Google APIs or Firebase services in your Android application
 
 ![Capture](https://user-images.githubusercontent.com/60444937/123498570-acbc7580-d628-11eb-9bfc-3e0ee6486bc8.PNG)
 
+-Adding the JSON File
+The google-services.json file is generally placed in the app/ directory (at the root of the Android Studio(Flutter app) app module). As the plugin supports build type and product flavor-specific JSON files. All of the following directory structures are valid:
+
+
+
 Part 1: Authentification with Firebase.
 
 ![1](https://user-images.githubusercontent.com/60444937/123497305-a3310e80-d624-11eb-8bb9-212f6261be2f.PNG)![2](https://user-images.githubusercontent.com/60444937/123497382-23577400-d625-11eb-9976-f9ae6fae8de8.PNG)![3](https://user-images.githubusercontent.com/60444937/123497444-7af5df80-d625-11eb-9c7b-703ea778afe9.PNG)
