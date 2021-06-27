@@ -19,7 +19,7 @@ samples, guidance on mobile development, and a full API reference.
 USING:
 -Android Studio or VSCode.
 
--Account creation in Firebase: https: //firebase.google.com/
+-Account creation in Firebase: https://firebase.google.com/
 
 -To download the packages. Find and use packages to build Dart and Flutter apps: https://pub.dev/
 
