@@ -21,7 +21,9 @@ USING:
 
 -Account creation in Firebase: https://firebase.google.com/
 
--To download the packages. Find and use packages to build Dart and Flutter apps: https://pub.dev/
+-To download the packages:
+
+-Find and use packages to build Dart and Flutter apps: https://pub.dev/
 
 *************
 -Create a project Flutter.
