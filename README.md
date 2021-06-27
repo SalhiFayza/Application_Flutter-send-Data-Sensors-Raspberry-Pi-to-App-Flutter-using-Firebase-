@@ -36,7 +36,10 @@ As part of enabling Google APIs or Firebase services in your Android application
 ![ù](https://user-images.githubusercontent.com/60444937/123498639-2d7b7180-d629-11eb-8b55-f3a78c2b2269.PNG)
 
 Add dependencies for basic libraries required for the services you have enabled. This step requires that you apply the Google Services Gradle plugin in your app/build.gradle file, like so(app-->build.gradle):
+
 ![8](https://user-images.githubusercontent.com/60444937/123498801-f22d7280-d629-11eb-9bc4-8bbdf46d1a4d.PNG)
+
+-Form data  in Firebase:
 
 
 
