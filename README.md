@@ -56,6 +56,14 @@ Add dependencies for basic libraries required for the services you have enabled.
 
 Part 1: Authentification with Firebase.
 
+- Add this packages in the program (pubspec.yaml):
+
+ +"firebase_auth: ^1.1.1".
+ 
+ +"firebase_core: ^1.0.4".
+ 
+ +"firebase_database: ^6.1.2".
+ 
 ![1](https://user-images.githubusercontent.com/60444937/123497305-a3310e80-d624-11eb-8bb9-212f6261be2f.PNG)![2](https://user-images.githubusercontent.com/60444937/123497382-23577400-d625-11eb-9976-f9ae6fae8de8.PNG)![3](https://user-images.githubusercontent.com/60444937/123497444-7af5df80-d625-11eb-9c7b-703ea778afe9.PNG)
 
 Part 2: Data obtained from Firebase.
