@@ -15,10 +15,14 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 *************
+
 USING:
 -Android Studio or VSCode.
+
 -Account creation in Firebase: https: //firebase.google.com/
--
+
+-To download the packages. Find and use packages to build Dart and Flutter apps: https://pub.dev/
+
 *************
 -Create a project Flutter.
 
