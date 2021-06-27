@@ -1,4 +1,4 @@
-# assistantapp
+# Application mobile Flutter for observes Aquaponics data in real-time remotely.
 
 A new Flutter project.
 
