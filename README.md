@@ -72,10 +72,6 @@ Part 2: Data obtained from Firebase.
 
 Part 3: Pieces of information with the Fishes and Plants in Aquaponics.
 
-![++](https://user-images.githubusercontent.com/60444937/123563961-62193580-d7af-11eb-88ab-ccfb1871822b.PNG)
+![++](https://user-images.githubusercontent.com/60444937/123563961-62193580-d7af-11eb-88ab-ccfb1871822b.PNG)![--](https://user-images.githubusercontent.com/60444937/123563970-69d8da00-d7af-11eb-9af4-8fe8cd7c2671.PNG)
 
-![--](https://user-images.githubusercontent.com/60444937/123563970-69d8da00-d7af-11eb-9af4-8fe8cd7c2671.PNG)
-
-![----](https://user-images.githubusercontent.com/60444937/123563981-70ffe800-d7af-11eb-92f9-143a94aeb4ce.PNG)
-
-![+++++](https://user-images.githubusercontent.com/60444937/123563987-778e5f80-d7af-11eb-9fba-b898ee932715.PNG)
+![----](https://user-images.githubusercontent.com/60444937/123563981-70ffe800-d7af-11eb-92f9-143a94aeb4ce.PNG)![+++++](https://user-images.githubusercontent.com/60444937/123563987-778e5f80-d7af-11eb-9fba-b898ee932715.PNG)
